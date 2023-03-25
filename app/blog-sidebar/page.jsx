@@ -415,7 +415,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Startup
+                      NATCON70
                     </a>
                   </li>
                   <li>
@@ -444,7 +444,7 @@ const BlogSidebarPage = () => {
                   <TagButton text="Themes" />
                   <TagButton text="UI Kit" />
                   <TagButton text="Tailwind" />
-                  <TagButton text="Startup" />
+                  <TagButton text="NATCON70" />
                   <TagButton text="Business" />
                 </div>
               </div>
