@@ -16,22 +16,22 @@ const Footer = () => {
                   <Image
                     src="images/logo/logo-2.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
+                    className="w-30 dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
                     src="images/logo/logo.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
+                    className="hidden w-30 dark:block"
                     width={140}
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
+                {/* <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
-                </p>
+                </p> */}
                 <div className="flex items-center">
                   <a
                     href="/"
@@ -98,7 +98,7 @@ const Footer = () => {
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful Links
                 </h2>
-                <ul>
+                {/* <ul>
                   <li>
                     <a
                       href="/"
@@ -126,7 +126,7 @@ const Footer = () => {
                       About{" "}
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
 
@@ -135,7 +135,7 @@ const Footer = () => {
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
                 </h2>
-                <ul>
+                {/* <ul>
                   <li>
                     <a
                       href="/"
@@ -163,7 +163,7 @@ const Footer = () => {
                       Refund Policy{" "}
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
 
@@ -172,7 +172,7 @@ const Footer = () => {
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
                 </h2>
-                <ul>
+                {/* <ul>
                   <li>
                     <a
                       href="/"
@@ -200,7 +200,7 @@ const Footer = () => {
                       About{" "}
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

@@ -38,6 +38,10 @@ Naharlagun, Itnanagar
 <br />
 Arunachal Pradesh - 791110
                 </p>
+                <h4 className="mb-5 text-xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-2xl md:leading-tight">
+                  
+                  Dates: 29<sup>th</sup> November 2023 to 2<sup>nd</sup> December 2023
+                  </h4>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"></div>
               </div>
             </div>

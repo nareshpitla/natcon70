@@ -17,14 +17,14 @@ export default function Home() {
     <>
       <Hero />
       <Features />
+      <Contact />
+      <Pricing />
       <Video />
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
       <Blog />
-      <Contact />
     </>
   );
 }

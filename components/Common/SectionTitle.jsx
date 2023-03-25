@@ -4,6 +4,7 @@ const SectionTitle = ({
   paragraph2,
   paragraph3,
   paragraph4,
+  date,
   width = "auto",
   center,
   mb = "100px",
@@ -31,6 +32,7 @@ const SectionTitle = ({
         <p className="text-base text-justify !leading-relaxed text-body-color md:text-lg">
           {paragraph4}
         </p>
+        
       </div>
     </>
   );
