@@ -1,7 +1,10 @@
 const SectionTitle = ({
   title,
   paragraph,
-  width = "570px",
+  paragraph2,
+  paragraph3,
+  paragraph4,
+  width = "auto",
   center,
   mb = "100px",
 }) => {
@@ -12,11 +15,21 @@ const SectionTitle = ({
         data-wow-delay=".1s"
         style={{ maxWidth: width, marginBottom: mb }}
       >
-        <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+        
+        <h4 className="mb-4 text-2xl font-bold !leading-tight text-black dark:text-white sm:text-3xl md:text-[30px]">
           {title}
-        </h2>
-        <p className="text-base !leading-relaxed text-body-color md:text-lg">
+        </h4>
+        <p className="text-base text-justify !leading-relaxed text-body-color md:text-lg">
           {paragraph}
+        </p>
+        <p className="text-base text-justify !leading-relaxed text-body-color md:text-lg">
+          {paragraph2}
+        </p>
+        <p className="text-base text-justify !leading-relaxed text-body-color md:text-lg">
+          {paragraph3}
+        </p>
+        <p className="text-base text-justify !leading-relaxed text-body-color md:text-lg">
+          {paragraph4}
         </p>
       </div>
     </>

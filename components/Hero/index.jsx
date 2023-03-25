@@ -1,24 +1,42 @@
 import Link from "next/link";
-
+import Image from "next/image";
+import banner from "../../public/images/banner.png";
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden pt-[150px] pb-16 md:pt-[50px] md:pb-[50px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[100px]"
       >
         <div className="container">
+        
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
+          <Image
+                  src={banner}
+                  alt="banner"
+                 
+                  className="w-full pb-[50px]"
+                />
+            <div className="w-full px-4 mt-5">
               <div
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  NATCON70
-                </h1>
+                
+                <h4 className="mb-5 text-xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-2xl md:leading-tight">
+                Anatomical Society of INDIA
+<br/>
+                <br/>
+                70<sup>th</sup> NATIONAL CONFERENCE & INTERNATIONAL COLLOQUIUM
+                <br/>
+                Tomo Riba Institute of Health & Medical Sclences
+                </h4>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  NATCON70{" "}
+Govt. of Arunachal Pradesh
+<br/>
+Naharlagun, Itnanagar 
+<br />
+Arunachal Pradesh - 791110
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"></div>
               </div>
