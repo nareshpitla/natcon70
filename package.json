@@ -1,5 +1,6 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "natcon70",
+  "homepage": "https://www.natcon70.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {

@@ -6,6 +6,12 @@ const menuData = [
     newTab: false,
   },
   {
+    id: 11,
+    title: "Brochure",
+    path: "/",
+    newTab: false,
+  },
+  {
     id: 2,
     title: "About",
     path: "/about",
@@ -13,9 +19,60 @@ const menuData = [
   },
   {
     id: 33,
-    title: "Blog",
-    path: "/blog",
+    title: "Committee",
     newTab: false,
+    submenu: [
+      {
+        id: 13,
+        title: "Adivisory Committee",
+        path: "/contact",
+        newTab: false,
+      },
+      {
+        id: 23,
+        title: "Organising Committee",
+        path: "/contact",
+        newTab: false,
+      },
+    ],
+  },
+  {
+    id: 43,
+    title: "CME",
+    newTab: false,
+    submenu: [
+      {
+        id: 13,
+        title: "CME",
+        path: "/contact",
+        newTab: false,
+      },
+      {
+        id: 23,
+        title: "CME Program",
+        path: "/contact",
+        newTab: false,
+      },
+    ],
+  },
+  {
+    id: 53,
+    title: "Workshop",
+    newTab: false,
+    submenu: [
+      {
+        id: 13,
+        title: "Workshop",
+        path: "/contact",
+        newTab: false,
+      },
+      {
+        id: 23,
+        title: "Workshop Details",
+        path: "/contact",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 3,
